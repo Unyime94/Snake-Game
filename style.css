@@ -1,0 +1,72 @@
+body {
+    background-color: rgb(39, 38, 38);
+    color: rgb(238, 238, 238);
+    font-family: 'Nunito', sans-serif;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: greenyellow;
+}
+
+button {
+    border-style: none;
+    background-color: rgb(138, 43, 226);
+    font-size: x-large;
+    color: rgb(238, 238, 238);
+    padding: 4px 10px 4px 10px;
+    border-radius: 4px;
+    margin-left: 60px;
+}
+
+button:hover {
+    background-color: #5f0c8f;
+}
+
+.score {
+    font-size: x-large;
+    margin-top: -30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span {
+    margin-left: 7px;
+}
+
+.grid-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid {
+    background-color: black;
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    border-color: rgb(222, 253, 176);
+    border-style: solid;
+}
+
+.grid div {
+    width: 60px;
+    height: 60px;
+}
+
+.snake {
+    background-color: greenyellow;
+    border-radius: 15px;
+}
+
+.apple {
+    /* background-image: url("./salad.png"); */
+    background-color: purple;
+    border-radius: 25px;
+}
